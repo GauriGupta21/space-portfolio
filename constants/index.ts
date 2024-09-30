@@ -262,7 +262,7 @@ export const FOOTER_DATA = [
       {
         name: "Hire Me",
         icon: null,
-        link: "agrahariya21@gmail.com",
+        link: "https://www.linkedin.com/in/gauri-gupta-628b7a241/",
       },
       {
         name: "Learning about me",
@@ -272,7 +272,7 @@ export const FOOTER_DATA = [
       {
         name: "Contact Me",
         icon: null,
-        link: "agrahariya21@gmail.com",
+        link: "https://www.linkedin.com/in/gauri-gupta-628b7a241/",
       },
     ],
   },
