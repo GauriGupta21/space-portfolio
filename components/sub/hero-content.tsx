@@ -9,6 +9,7 @@ import {
   slideInFromRight,
   slideInFromTop,
 } from "@/lib/motion";
+import Link from "next/link";
 
 export const HeroContent = () => {
   return (
@@ -23,9 +24,7 @@ export const HeroContent = () => {
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]]"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-          <h1 className="Welcome-text text-[13px]">
-            Fullstack Developer Portfolio
-          </h1>
+          <h1 className="Welcome-text text-[13px]">Gauri Gupta</h1>
         </motion.div>
 
         <motion.div
@@ -33,11 +32,11 @@ export const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-6xl text-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-            Providing{" "}
+            Crafting Code{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-              the best
+              Building Solutions
             </span>{" "}
-            project experience.
+            Driving Innovation
           </span>
         </motion.div>
 
@@ -45,16 +44,15 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+          I&apos;m a Full Stack Software Engineer with experience in Website and
+          Software development. Check out my projects and skills.
         </motion.p>
-
-        <motion.a
+        <motion.div
           variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          className="py-3 px-3 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          Learn more
-        </motion.a>
+          <Link href="https://github.com/GauriGupta21">Learn more</Link>
+        </motion.div>
       </div>
 
       <motion.div
